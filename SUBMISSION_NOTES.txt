@@ -1,0 +1,18 @@
+Project: CampusForge API
+Challenge: AWS Student Builder Group - Web Development
+
+Suggested GitHub repository name:
+campusforge-concurrency-safe-api
+
+Suggested repository description:
+Concurrency-safe campus workshop registration API with PostgreSQL transactions, RBAC, rotating refresh tokens, and automated concurrency tests.
+
+Submission notes:
+- Run npm install
+- Copy .env.example to .env and set secrets
+- Start PostgreSQL with docker compose up -d
+- Run npm run migrate && npm run seed
+- Run npm test
+- Start with npm run dev
+
+The README explains the architecture and the concurrency decision in detail.
